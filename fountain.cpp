@@ -116,7 +116,7 @@ int main(int argc, char** argv) {
   sigaction(SIGINT, &sig_int_handler, NULL);
 
   clear_cursors();
-  make_cursors(60);
+  make_cursors(55);
   run(get_cursors());
   return 0;
 }
